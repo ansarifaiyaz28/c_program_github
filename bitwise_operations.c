@@ -1,7 +1,6 @@
 /* Operations on Bits */
 
 #include<stdio.h>
-#include<conio.h>
 
 /*Program 11.2: Program to illustrate bitwise operaors*/
 /*
@@ -174,7 +173,6 @@ int main(){
 	printf("%x\n", rotate(w1, 0));
 	printf("%x\n", rotate(w1, 44));
 	
-	getch();
 	return 0;
 }
 
